@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Real-Time Collaboration Tool</title>
+
+  <!-- Tailwind (keep if you want Tailwind utilities) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Link to external CSS -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="bg-gray-100 min-h-screen">
+  <div class="container mx-auto p-4">
+    <h1 class="text-3xl font-bold mb-4">Real-Time Shared Document Editor</h1>
+    <p class="mb-4">Type here to edit the document. Changes are synchronized in real-time across all connected users.</p>
+
+    <div id="editor" contenteditable="true" class="bg-white rounded shadow p-4"></div>
+
+    <div id="users" class="text-sm">Connected: 0 users</div>
+
+    <div class="mt-4">
+      <label for="username" class="block text-sm font-medium">Your Username:</label>
+      <input id="username" type="text" class="border rounded p-2 w-full" placeholder="Enter your name" />
+    </div>
+
+    <button id="connect-btn" class="mt-4 bg-blue-500 text-white px-4 py-2 rounded">Connect</button>
+    <div id="status" class="mt-2 text-sm"></div>
+  </div>
+
+  <!-- JS (external) -->
+  <script src="script.js"></script>
+</body>
+</html>
