@@ -24,3 +24,6 @@ The applications of this project are numerous and very useful in the world today
 
 Lastly, this Real-Time Collaboration Tool is not only a proof-of-concept deployment of WebSocket technology but also an foundation that may be extended to enterprise-grade applications. With Node.js, WebSockets, React, Tailwind CSS, and Vite included, the project shows how today's web development tools can be mixed to provide high-performance, multi-user, synchronized solutions. Its uses in real-world education, business, and creative industries make it a robust and capable tool for today's digital workspace.
 
+#output
+
+<img width="1366" height="776" alt="Image" src="https://github.com/user-attachments/assets/45338049-3b60-400c-b79b-58d4466e36bc" />
